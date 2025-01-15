@@ -1,0 +1,9 @@
+# configmap.yaml
+# created based on https://docs.n8n.io/hosting/installation/docker/
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: n8n-config
+  namespace: nocode
+data:
+  DB_TYPE: postgresdb
